@@ -1,13 +1,13 @@
 apiVersion: core.choreo.dev/v1alpha1
 kind: ComponentConfig
 metadata:
-    name: Haha
-    projectName: Yoyo
+    name: Yrr
+    projectName: TestCP3
 spec:
     build:
         branch: main
     inbound:
-        - name: Haha
+        - name: Yrr
           port: 9090
           type: REST
           visibility: Public
