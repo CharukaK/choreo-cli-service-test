@@ -1,0 +1,14 @@
+apiVersion: core.choreo.dev/v1alpha1
+kind: ComponentConfig
+metadata:
+    name: yoyo
+    projectName: TestCP3
+spec:
+    build:
+        branch: main
+    inbound:
+        - name: yoyo
+          port: 9090
+          type: REST
+          visibility: Public
+          context: /
